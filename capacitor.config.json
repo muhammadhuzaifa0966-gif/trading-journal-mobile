@@ -1,0 +1,6 @@
+{
+  "appId": "com.huzaifa.tradelogs",
+  "appName": "TradeLogs Pro",
+  "webDir": "dist",
+  "android": { "backgroundColor": "#0F172A" }
+}

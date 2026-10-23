@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+* { -webkit-tap-highlight-color: transparent; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: #0F172A;
+  color: #F9FAFB;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+select option { background-color: #1E293B; color: #F9FAFB; }
+
+.safe-top { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+.recharts-default-tooltip, .recharts-tooltip-label, .recharts-tooltip-item, .recharts-legend-item-text {
+  color: #F9FAFB !important;
+}
+.recharts-cartesian-axis-tick-value { fill: #D1D5DB; }
